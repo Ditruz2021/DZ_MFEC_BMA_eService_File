@@ -1,0 +1,27 @@
+bin/
+obj/
+
+.vs/
+.idea/
+.vscode/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+*.log
+*.tmp
+*.cache
+
+TestResults/
+coverage/
+
+wwwroot/storage/
+
+*.pidb
+*.svclog
+
+# Keep local publish artifacts out of source control
+publish/
+dist/
