@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  dotnet-app:
+    image: phetchvlp/dotnet_api_gateway_starter
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 9933:9933

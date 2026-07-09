@@ -1,0 +1,6 @@
+@dotnet_starter_HostAddress = http://localhost:5181
+
+GET {{dotnet_starter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

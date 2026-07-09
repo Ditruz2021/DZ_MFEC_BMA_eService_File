@@ -1,0 +1,4 @@
+Jwt:
+  SecretKey: "PbhxMaAejQ5pVStTsMPzja0Q2FOeEIOQy8isxw2tTxduqIjWRJP78bWGpaXH67Tkeb+2t91YBj2stXEw6vyZQ"
+  Issuer: "dotnet_starter"
+  Audience: "dotnet_starter"
