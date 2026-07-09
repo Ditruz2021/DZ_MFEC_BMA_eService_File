@@ -5,26 +5,22 @@ namespace dotnet_starter.Utils
 {
     public interface IImageUploader
     {
-        FileResponse LinkFile(IFormFile file, string bucket, string fileName);
-        FileResponse LinkFileResize(IFormFile file, string bucket, string fileName);
+        FileResponse LinkFile(IFormFile file, string bucket);
+        FileResponse LinkFileResize(IFormFile file, string bucket);
         string UnlinkFile(string path);
     }
 
     public class ImageUploader : IImageUploader
     {
         private readonly string _rootPath;
-        private readonly IHttpContextAccessor _httpContextAccessor;
 
 
-        public ImageUploader(
-            IHttpContextAccessor httpContextAccessor
-        )
+        public ImageUploader()
         {
             _rootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/storage");
-            _httpContextAccessor = httpContextAccessor;
         }
 
-        public FileResponse LinkFile(IFormFile file, string bucket, string fileName)
+        public FileResponse LinkFile(IFormFile file, string bucket)
         {
             if (file == null || file.Length == 0)
                 throw new ArgumentException("File is empty or null.", nameof(file));
@@ -42,8 +38,7 @@ namespace dotnet_starter.Utils
             if (string.IsNullOrEmpty(fileExtension))
                 throw new InvalidOperationException("Invalid file format. Missing extension.");
 
-            // 👇 Use the provided fileName + original extension
-            string sanitizedFileName = $"{fileName}{fileExtension}";
+            string sanitizedFileName = $"{DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()}{fileExtension}";
             string filePath = Path.Combine(uploadPath, sanitizedFileName);
 
             try
@@ -53,15 +48,9 @@ namespace dotnet_starter.Utils
                     file.CopyTo(stream);
                 }
 
-                var requestContext = _httpContextAccessor.HttpContext?.Request;
-                var baseUrl = $"{requestContext?.Scheme}://{requestContext?.Host}";
-
                 return new FileResponse
                 {
-                    // Path = baseUrl + $"/storage/{bucket}/{sanitizedFileName}",
-                    Path = $"/{bucket}/{sanitizedFileName}",
-                    FileType = file.ContentType,
-                    FileSize = Math.Round((file.Length / 1024f), 2).ToString() + " KB"
+                    Path = $"/storage/{bucket}/{sanitizedFileName}"
                 };
             }
             catch (IOException ioEx)
@@ -73,7 +62,7 @@ namespace dotnet_starter.Utils
                 throw new IOException("❌ Unexpected error while uploading image.", ex);
             }
         }
-        public FileResponse LinkFileResize(IFormFile file, string bucket, string fileName)
+        public FileResponse LinkFileResize(IFormFile file, string bucket)
         {
             if (file == null || file.Length == 0)
                 throw new ArgumentException("File is empty or null.", nameof(file));
@@ -91,8 +80,7 @@ namespace dotnet_starter.Utils
             if (string.IsNullOrEmpty(fileExtension))
                 throw new InvalidOperationException("Invalid file format. Missing extension.");
 
-            // 👇 Use the provided fileName + extension
-            string sanitizedFileName = $"{fileName}{fileExtension}";
+            string sanitizedFileName = $"{DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()}{fileExtension}";
             string filePath = Path.Combine(uploadPath, sanitizedFileName);
 
             try
@@ -127,14 +115,9 @@ namespace dotnet_starter.Utils
                     file.CopyTo(stream);
                 }
 
-                var requestContext = _httpContextAccessor.HttpContext?.Request;
-                var baseUrl = $"{requestContext?.Scheme}://{requestContext?.Host}";
-
                 return new FileResponse
                 {
-                    Path = baseUrl + $"/storage/{bucket}/{sanitizedFileName}",
-                    FileType = file.ContentType,
-                    FileSize = Math.Round((new FileInfo(filePath).Length / 1024f), 2).ToString() + " KB"
+                    Path = $"/storage/{bucket}/{sanitizedFileName}"
                 };
             }
             catch (Exception ex)

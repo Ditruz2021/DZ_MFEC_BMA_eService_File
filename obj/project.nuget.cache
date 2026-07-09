@@ -1,0 +1,1681 @@
+{
+  "version": 2,
+  "dgSpecHash": "/pwvmND6CnI=",
+  "success": true,
+  "projectFilePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+  "expectedPackageFiles": [
+    "/Users/chvlpf/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/magick.net-q8-anycpu/14.5.0/magick.net-q8-anycpu.14.5.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/magick.net.core/14.5.0/magick.net.core.14.5.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.2/microsoft.aspnetcore.authentication.jwtbearer.8.0.2.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.aspnetcore.openapi/8.0.2/microsoft.aspnetcore.openapi.8.0.2.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.bcl.memory/9.0.0/microsoft.bcl.memory.9.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.build.framework/17.8.3/microsoft.build.framework.17.8.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.build.locator/1.7.8/microsoft.build.locator.1.7.8.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.codeanalysis.common/4.8.0/microsoft.codeanalysis.common.4.8.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.codeanalysis.csharp/4.8.0/microsoft.codeanalysis.csharp.4.8.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.8.0/microsoft.codeanalysis.csharp.workspaces.4.8.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.8.0/microsoft.codeanalysis.workspaces.common.4.8.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.codeanalysis.workspaces.msbuild/4.8.0/microsoft.codeanalysis.workspaces.msbuild.4.8.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.data.sqlclient/5.1.6/microsoft.data.sqlclient.5.1.6.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.1/microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.entityframeworkcore/9.0.3/microsoft.entityframeworkcore.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.3/microsoft.entityframeworkcore.abstractions.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.3/microsoft.entityframeworkcore.analyzers.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.entityframeworkcore.design/9.0.2/microsoft.entityframeworkcore.design.9.0.2.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.3/microsoft.entityframeworkcore.relational.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.entityframeworkcore.sqlserver/9.0.3/microsoft.entityframeworkcore.sqlserver.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.3/microsoft.extensions.caching.abstractions.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.caching.memory/9.0.3/microsoft.extensions.caching.memory.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.configuration/2.0.0/microsoft.extensions.configuration.2.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.3/microsoft.extensions.configuration.abstractions.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.configuration.fileextensions/2.0.0/microsoft.extensions.configuration.fileextensions.2.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.3/microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.3/microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.dependencymodel/9.0.2/microsoft.extensions.dependencymodel.9.0.2.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.fileproviders.abstractions/2.0.0/microsoft.extensions.fileproviders.abstractions.2.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.fileproviders.physical/2.0.0/microsoft.extensions.fileproviders.physical.2.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.filesystemglobbing/2.0.0/microsoft.extensions.filesystemglobbing.2.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.logging/9.0.3/microsoft.extensions.logging.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.3/microsoft.extensions.logging.abstractions.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.options/9.0.3/microsoft.extensions.options.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.extensions.primitives/9.0.3/microsoft.extensions.primitives.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.identity.client/4.61.3/microsoft.identity.client.4.61.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.identity.client.extensions.msal/4.61.3/microsoft.identity.client.extensions.msal.4.61.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.identitymodel.abstractions/8.6.0/microsoft.identitymodel.abstractions.8.6.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.6.0/microsoft.identitymodel.jsonwebtokens.8.6.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.identitymodel.logging/8.6.0/microsoft.identitymodel.logging.8.6.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.identitymodel.protocols/7.1.2/microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.1.2/microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.identitymodel.tokens/8.6.0/microsoft.identitymodel.tokens.8.6.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.openapi/1.6.22/microsoft.openapi.1.6.22.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/netescapades.configuration.yaml/3.1.0/netescapades.configuration.yaml.3.1.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/npgsql/9.0.2/npgsql.9.0.2.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/npgsql.entityframeworkcore.postgresql/9.0.3/npgsql.entityframeworkcore.postgresql.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/scrutor/6.0.1/scrutor.6.0.1.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/stackexchange.redis/2.8.24/stackexchange.redis.2.8.24.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/swashbuckle.aspnetcore/7.2.0/swashbuckle.aspnetcore.7.2.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/swashbuckle.aspnetcore.swagger/7.2.0/swashbuckle.aspnetcore.swagger.7.2.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/swashbuckle.aspnetcore.swaggergen/7.2.0/swashbuckle.aspnetcore.swaggergen.7.2.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/swashbuckle.aspnetcore.swaggerui/7.2.0/swashbuckle.aspnetcore.swaggerui.7.2.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.clientmodel/1.0.0/system.clientmodel.1.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.composition/7.0.0/system.composition.7.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.composition.attributedmodel/7.0.0/system.composition.attributedmodel.7.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.composition.convention/7.0.0/system.composition.convention.7.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.composition.hosting/7.0.0/system.composition.hosting.7.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.composition.runtime/7.0.0/system.composition.runtime.7.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.configuration.configurationmanager/6.0.1/system.configuration.configurationmanager.6.0.1.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.diagnostics.diagnosticsource/9.0.3/system.diagnostics.diagnosticsource.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.formats.asn1/9.0.3/system.formats.asn1.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.identitymodel.tokens.jwt/8.6.0/system.identitymodel.tokens.jwt.8.6.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.io.pipelines/9.0.3/system.io.pipelines.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.runtime.caching/6.0.0/system.runtime.caching.6.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.security.accesscontrol/6.0.0/system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.security.cryptography.cng/5.0.0/system.security.cryptography.cng.5.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.security.cryptography.protecteddata/6.0.0/system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.security.permissions/6.0.0/system.security.permissions.6.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.text.encodings.web/9.0.3/system.text.encodings.web.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.text.json/9.0.3/system.text.json.9.0.3.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
+    "/Users/chvlpf/.nuget/packages/yamldotnet/13.0.1/yamldotnet.13.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-26qp-ffjh-2x4v",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-273h-m46v-96q4",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-2gq3-ww97-wfjm",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2hhq-c99x-492r",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2rgj-gx5x-f62w",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-36wm-hprc-mcf5",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-39h3-g67r-7g3c",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-3j4x-rwrx-xxj9",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-3mwp-xqp2-q6ph",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-3q5f-gmjc-38r8",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-42p5-62qq-mmh7",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-44cp-c3ww-9rv5",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-467j-76j7-5885",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-493f-jh8w-qhx3",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4g75-9r48-jf92",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4v89-6mgq-6rgc",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-533m-3wf6-c33v",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-543g-8grm-9cw6",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5592-p365-24xh",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-56jp-jfqg-f8f4",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5ggv-92r5-cp4p",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5r4x-w6p5-222q",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5v62-8fq6-cp9m",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5vx3-wx4q-6cj8",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5xg3-585r-9jh5",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6gxq-f64p-5w6f",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6hgw-6x87-578x",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-6hjr-v6g4-3fm8",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6j5f-24fw-pqp4",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-6p22-q7w5-33pg",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-72hf-fj62-w6j4",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7355-pwx2-pm84",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-782x-jh29-9mf7",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7gg8-qqx7-92g5",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-7h7q-j33q-hvpf",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-7rvh-xqp3-pr8j",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-7wff-wpr6-vmhm",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8793-7xv6-82cf",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8jvj-p28h-9gm7",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8mpr-6xr2-chhc",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8pj9-6897-74xc",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-8vfj-q2cp-5m5j",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-932h-jw47-73jm",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-96pc-27rx-pr36",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-98cp-rj9f-6v5g",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-9ccg-6pjw-x645",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9pp9-cfwx-54rm",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-9r56-3gjq-hqf7",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9vj4-wc7r-p844",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-cfh4-9f7v-fhrc",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-cjc8-g9w8-chfw",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-cqw9-w2m7-r2m2",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-cr67-pvmx-2pp2",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-cr6r-hmj8-pr7r",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-cwpj-h54c-xjpx",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-f4qm-vj5j-9xpw",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-fh55-q5pj-pxgw",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-fpvf-frm6-625q",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-fwqw-2x5x-w566",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-fwvm-ggf6-2p4x",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-g22q-f7gc-5jhr",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g2pr-qxjg-7r2w",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g5mf-wqq5-vwg6",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-gc62-2v5p-qpmp",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-gm37-qx7w-p258",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-gq5v-qf8q-fp77",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-gwr3-x37h-h84v",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-gxcx-qjqp-8vjw",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-h36c-3666-h489",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-h95r-c8c7-mrwx",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-hffp-q43q-qq76",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-hm4x-r5hc-794f",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-j989-f892-2335",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-jcqp-6r6f-3mfx",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-jqq5-8px3-9m6m",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-jv4p-gjwq-9r2j",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-jvgr-9ph5-m8v4",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-mqfc-82jx-3mr2",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-mrmj-x24c-wwcv",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-mw3m-pqr2-qv7c",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-mxvv-97wh-cfmm",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-p27m-hp98-6637",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-p33r-fqw2-rqmm",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-p863-5fgm-rgq4",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-p93h-f2jc-477j",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-p9rq-q46c-g4x6",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-pcvx-ph33-r5vv",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-pfvh-m9xv-8966",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-pmpg-6pww-fg6q",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-pmq6-8289-hx3v",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pqgj-2p96-rx85",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-pwg5-6jfc-crvh",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-px7q-ggqj-hcf2",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-q62c-h75r-2xhc",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-q8h3-jv9v-57qx",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qh3h-j545-h8c9",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qmw5-2p58-xvrc",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qp29-wxp5-wh82",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qp59-x883-77qv",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qpg4-j99f-8xcg",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qpgx-jfcq-r59f",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-qv2q-c278-pch5",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-r39q-jr8h-gcq2",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-r83h-crwp-3vm7",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-r99p-5442-q2x2",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rcr6-g7jc-f57g",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rqq8-jh93-f4vg",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rw6c-xp26-225v",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v67w-737x-v2c9",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v7g2-m8c5-mf84",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v994-63cg-9wj3",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-vf33-6r7x-66xx",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-vhqj-f5cj-9x8h",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vhrh-72hq-w8m7",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-vmhh-8rxq-fp9g",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vpxv-r9pg-7gpr",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-w54j-7wpm-crhj",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-w8mw-frc6-r7m8",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-wfx3-6g53-9fgc",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wg3g-gvx5-2pmv",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-wgxp-q8xq-wpp9",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-wj8w-pjxf-9g4f",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wrhr-rf8j-r842",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-x928-4434-crqj",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9h5-r9v2-vcww",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-xcjm-wqff-m669",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-xg29-8ghv-v4xr",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-xgm3-v4r9-wfgm",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-xpg8-7m6m-jf56",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-xwc6-v6g8-pw2h",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-xxw5-m53x-j38c",
+      "projectPath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/chvlpf/developer/dev/bma/DZ_MFEC_BMA_eService_File/dotnet_starter.csproj",
+      "libraryId": "Magick.NET-Q8-AnyCPU",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

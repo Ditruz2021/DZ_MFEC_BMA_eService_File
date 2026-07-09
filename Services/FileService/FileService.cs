@@ -6,8 +6,8 @@ namespace dotnet_starter.Services.Images
 {
     public interface IImageService
     {
-        Task<FileResponse?> LinkFile(FileLinkRequest request);
-        Task<Result<FileResponse>> LinkFileResize(FileLinkRequest request);
+        Task<Result<string>> LinkFile(FileLinkRequest request);
+        Task<Result<string>> LinkFileResize(FileLinkRequest request);
         Task<Result<string>> UnlinkFile(FileUnlinkRequest request);
     }
 
@@ -23,48 +23,34 @@ namespace dotnet_starter.Services.Images
             _imageUploader = imageUploader;
         }
 
-        public async Task<FileResponse?> LinkFile(FileLinkRequest request)
+        public async Task<Result<string>> LinkFile(FileLinkRequest request)
         {
             try
             {
                 var uploadInfo = await Task.Run(() =>
-                    _imageUploader.LinkFile(request.File, request.Bucket, request.FileName)
+                    _imageUploader.LinkFile(request.File, request.Bucket)
                 );
 
-
-
-                return new FileResponse
-                {
-                    Path = uploadInfo.Path,
-                    Bucket = request.Bucket,
-                    FileType = uploadInfo.FileType,
-                    FileSize = uploadInfo.FileSize
-                };
-            }
-            catch (Exception)
-            {
-                return null;
-            }
-        }
-        public async Task<Result<FileResponse>> LinkFileResize(FileLinkRequest request)
-        {
-            try
-            {
-                var uploadInfo = await Task.Run(() =>
-                    _imageUploader.LinkFileResize(request.File, request.Bucket, request.FileName)
-                );
-
-                return Result<FileResponse>.Success(new FileResponse
-                {
-                    Path = uploadInfo.Path,
-                    Bucket = request.Bucket,
-                    FileType = uploadInfo.FileType,
-                    FileSize = uploadInfo.FileSize
-                });
+                return Result<string>.Success(uploadInfo.Path);
             }
             catch (Exception ex)
             {
-                return Result<FileResponse>.Fail("Upload failed: " + ex.Message);
+                return Result<string>.Fail("Upload failed: " + ex.Message);
+            }
+        }
+        public async Task<Result<string>> LinkFileResize(FileLinkRequest request)
+        {
+            try
+            {
+                var uploadInfo = await Task.Run(() =>
+                    _imageUploader.LinkFileResize(request.File, request.Bucket)
+                );
+
+                return Result<string>.Success(uploadInfo.Path);
+            }
+            catch (Exception ex)
+            {
+                return Result<string>.Fail("Upload failed: " + ex.Message);
             }
         }
 

@@ -21,10 +21,10 @@ namespace dotnet_starter.Controllers
         public async Task<IActionResult> LinkFile([FromForm] FileLinkRequest request)
         {
             var res = await _ImageService.LinkFile(request);
-            if (res == null)
-                return NotFound(ResponseError<string>.Error("Upload failed: " + res, HttpContext));
+            if (!res.IsSuccess || res.Data == null)
+                return BadRequest(ResponseError<object>.Error(res.Error ?? "Upload failed", HttpContext));
 
-            return Ok(ResponseSuccess<FileResponse>.Success(res, HttpContext));
+            return Ok(ResponseSuccess<string>.Success(res.Data, HttpContext));
         }
 
 
@@ -36,7 +36,7 @@ namespace dotnet_starter.Controllers
             if (!res.IsSuccess || res.Data == null)
                 return BadRequest(ResponseError<string>.Error(res.Error ?? "Unknown error", HttpContext));
 
-            return Ok(ResponseSuccess<FileResponse>.Success(res.Data, HttpContext));
+            return Ok(ResponseSuccess<string>.Success(res.Data, HttpContext));
         }
 
         [HttpPost("file-unlink")]
@@ -50,5 +50,4 @@ namespace dotnet_starter.Controllers
         }
     }
 }
-
 
